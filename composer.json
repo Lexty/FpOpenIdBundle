@@ -15,9 +15,11 @@
             "homepage": "https://github.com/formapro/FpOpenIdBundle/contributors"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.3.2",
-        "lightopenid/lightopenid": "*",
+        "lightopenid/lightopenid": "dev-master",
         "symfony/symfony": "~2.7"
     },
     "require-dev": {
